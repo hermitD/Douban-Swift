@@ -1,10 +1,16 @@
 PODS:
   - Alamofire (3.1.4)
+  - Kingfisher (1.8.5)
+  - Reveal-iOS-SDK (1.6.2)
 
 DEPENDENCIES:
   - Alamofire (~> 3.0)
+  - Kingfisher (~> 1.8)
+  - Reveal-iOS-SDK
 
 SPEC CHECKSUMS:
   Alamofire: fbc829692f351fa1d8a31dd75fd7f7f56fea31fb
+  Kingfisher: 780fed0fa82692a3bd59d53329ae2b85cdd354a5
+  Reveal-iOS-SDK: e2250b3c155bcfac53ae223ddc1f76d08f206c33
 
 COCOAPODS: 0.39.0
