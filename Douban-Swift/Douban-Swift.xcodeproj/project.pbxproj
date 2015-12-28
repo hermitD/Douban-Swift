@@ -19,6 +19,9 @@
 		A03B0F731C28122700619A27 /* QuanziTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03B0F721C28122700619A27 /* QuanziTableVC.swift */; };
 		A03B0F751C28124900619A27 /* DiscoverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03B0F741C28124900619A27 /* DiscoverVC.swift */; };
 		A03B0F781C28152C00619A27 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03B0F771C28152C00619A27 /* TabBarVC.swift */; };
+		A076CDAD1C2BC43400493310 /* ThingsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A076CDAC1C2BC43400493310 /* ThingsTableViewCell.xib */; };
+		A076CDB01C2BCB3300493310 /* ThingsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A076CDAE1C2BCB3300493310 /* ThingsTableCell.swift */; };
+		A076CDB11C2BCB3300493310 /* ThingsTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A076CDAF1C2BCB3300493310 /* ThingsTableCell.xib */; };
 		A0D47FB01C2948BC00A6B68F /* ThingsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D47FAF1C2948BC00A6B68F /* ThingsTableVC.swift */; };
 		A0E947271C2A8D7000AFE810 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E9471B1C2A8D7000AFE810 /* Author.swift */; };
 		A0E947281C2A8D7000AFE810 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E9471C1C2A8D7000AFE810 /* Channel.swift */; };
@@ -53,6 +56,9 @@
 		A03B0F721C28122700619A27 /* QuanziTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuanziTableVC.swift; sourceTree = "<group>"; };
 		A03B0F741C28124900619A27 /* DiscoverVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverVC.swift; sourceTree = "<group>"; };
 		A03B0F771C28152C00619A27 /* TabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		A076CDAC1C2BC43400493310 /* ThingsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThingsTableViewCell.xib; sourceTree = "<group>"; };
+		A076CDAE1C2BCB3300493310 /* ThingsTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThingsTableCell.swift; sourceTree = "<group>"; };
+		A076CDAF1C2BCB3300493310 /* ThingsTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThingsTableCell.xib; sourceTree = "<group>"; };
 		A0D47FAF1C2948BC00A6B68F /* ThingsTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThingsTableVC.swift; sourceTree = "<group>"; };
 		A0E9471B1C2A8D7000AFE810 /* Author.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
 		A0E9471C1C2A8D7000AFE810 /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
@@ -210,6 +216,9 @@
 			isa = PBXGroup;
 			children = (
 				A0E947341C2A9C8E00AFE810 /* ThingsTableViewCell.swift */,
+				A076CDAC1C2BC43400493310 /* ThingsTableViewCell.xib */,
+				A076CDAE1C2BCB3300493310 /* ThingsTableCell.swift */,
+				A076CDAF1C2BCB3300493310 /* ThingsTableCell.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -292,7 +301,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A076CDAD1C2BC43400493310 /* ThingsTableViewCell.xib in Resources */,
 				A0317CEF1C27ECCB00D4E3D8 /* LaunchScreen.storyboard in Resources */,
+				A076CDB11C2BCB3300493310 /* ThingsTableCell.xib in Resources */,
 				A0317CEC1C27ECCB00D4E3D8 /* Assets.xcassets in Resources */,
 				A0317CEA1C27ECCB00D4E3D8 /* Main.storyboard in Resources */,
 			);
@@ -358,6 +369,7 @@
 				A0E947281C2A8D7000AFE810 /* Channel.swift in Sources */,
 				A03B0F711C28121200619A27 /* ProfileTableVC.swift in Sources */,
 				A03B0F6D1C2811D600619A27 /* ThingsCollectionVC.swift in Sources */,
+				A076CDB01C2BCB3300493310 /* ThingsTableCell.swift in Sources */,
 				A0E9472A1C2A8D7000AFE810 /* Hot_tags.swift in Sources */,
 				A0E9472E1C2A8D7000AFE810 /* Last_content.swift in Sources */,
 				A0E9472C1C2A8D7000AFE810 /* Json4Swift_Base.swift in Sources */,
